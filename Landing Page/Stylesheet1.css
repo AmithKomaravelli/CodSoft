@@ -1,0 +1,124 @@
+@import url(../Css/clash-display.css);
+
+:root{
+    --c-dark: #000000;
+    --c-brand: #106b7b;
+    --c-brand-light: #218c9f;
+    --c-body: #1f93a8;
+    --font-base: "ClashDisplay", sans-serif;
+    --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --transition: all 0.5s ease;
+}
+
+body {
+    font-family: var(--font-base);
+    line-height: 1.7;
+    background-color: rgba(31, 148, 168, 0.05);
+}
+
+h1,h2,h3,.h5,p {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--c-brand-light);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-zoom{
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.image-zoom-wrapper {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.image-zoom-wrapper img {
+    transition: var(--transition);
+}
+
+.image-zoom:hover .image-zoom-wrapper img {
+    transform: scale(1.1);
+}
+
+footer .line {
+    align-items: center;
+    justify-content: center;
+    height: 4px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: var(--c-brand-light);
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.section.padding {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--c-brand);
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+}
+
+.btn-brand {
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: white;
+}
+
+.btn-brand:hover{
+    background-color: var(--c-brand-light);
+    border-color: var();
+    color: white;
+}
+
+#hero {
+    
+    background-position: center;
+    background-size: cover;
+}
+
+#hero {
+    color: var(--c-brand);
+}
+
+#hero .heading-1 {
+    color: var(--c-brand-light);
+}
+
+#hero img {
+    border-radius: 24px;
+    box-shadow: var(--box-shadow);
+}
