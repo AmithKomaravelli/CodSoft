@@ -16,12 +16,11 @@
     --c-brand: #865D36;
     --c-brand-light: #93785B;
     --c-brand-rgb: 0,0,0;
-    --c-body: /*#AC8968*/ #f5efea;
-    --c-text : /*#fffce3*/ #865D36 ;
+    --c-body: #f5efea;
+    --c-text : #865D36 ;
     --font-base: "ClashDisplay", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
     --box-shadow-light: 0px 15px 25px rgba(246, 194, 138, 0.205);
-    --neumorphism: -5px -5px 15px rgba(255, 255, 255, 0.1), 8px 8px 15px rgba(0, 0, 0, 0.2);
     --transition: all 0.5s ease;
 }
 
